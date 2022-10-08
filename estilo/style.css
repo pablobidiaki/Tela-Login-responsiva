@@ -36,6 +36,7 @@ section#login{
 
 section#login > div > h1,p{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 section#login > div#imagem{
@@ -50,3 +51,4 @@ section#login > div#formulario{
     display: block;
     padding:10px;
 }
+
