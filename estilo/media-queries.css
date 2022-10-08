@@ -18,6 +18,19 @@
     section#login > div#formulario{
         width: 70vw;
     }
+
+    .campo{
+        background-color: #5f2c82;
+        height: 45px;
+        width: calc(100% - 20vw);
+        border-radius: 10px;
+        margin: 15px 0px;
+        border: 1px solid black;
+    }
+
+    .botoes{
+        width: calc(100% - 20vw);
+    }
 }
 
 @media screen and (min-width:992px){
@@ -38,5 +51,17 @@
     section#login > div#formulario{
         float: right;
         width: 50%;
+    }
+
+    div#formulario > p{
+        padding: 10px;
+    }
+
+    .campo{
+        margin: 15px 0px ;
+    }
+
+    .botoes > .enviar{
+        margin: 15px  0px;
     }
 }
