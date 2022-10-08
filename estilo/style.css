@@ -34,9 +34,13 @@ section#login{
     transition-timing-function: ease;
 }
 
-section#login > div > h1,p{
+section#login > div > h1{
     text-align: center;
     margin-bottom: 10px;
+}
+
+section#login > div > p{
+    font-size: 0.8em;
 }
 
 section#login > div#imagem{
@@ -52,3 +56,48 @@ section#login > div#formulario{
     padding:10px;
 }
 
+.campo{
+    background-color: #5f2c82;
+    border-radius: 10px;
+    margin: 5px 0px;
+    border: 1px solid black;
+}
+
+.enviar{
+    display: block;
+    background-color: #655dad;
+    color: white;
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 35px;
+    width: 100%;
+    margin-top: 5px ;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.enviar:hover{
+    background-color: #5f2c82;
+    border: 1px solid black;
+}
+
+.e-senha{
+    display: block;
+    background-color: #806e8b;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 5px;
+    padding-top: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    transition: .5s;
+}
+
+.e-senha:hover{
+    background-color: #45425f;
+}
